@@ -1,0 +1,33 @@
+header {
+    padding-top: 22px;
+    text-align: center;
+    background-color: green;
+    height: 40px;
+}
+
+.title{
+   border: solid black;
+    text-decoration:none;
+    color: white;
+    padding: 20px;
+}
+
+.container {
+    display : grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+.sidebar{
+    background-color: hotpink;
+}
+
+.main-content{
+}
+
+footer {
+    background-color: lightgrey;
+    text-align: center;
+}
+.footer-info{
+    display:inline-block;
+}
