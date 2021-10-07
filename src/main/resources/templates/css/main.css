@@ -1,4 +1,11 @@
+body{
+    background: darkgreen;
+    margin: 0;
+    padding: 0;
+}
+
 header {
+    border-radius: 20px;
     padding-top: 22px;
     text-align: center;
     background-color: green;
@@ -6,13 +13,16 @@ header {
 }
 
 .title{
-    border: solid black;
+    border-left: solid darkgreen;
+    border-right: solid darkgreen;
     text-decoration:none;
     color: white;
-    padding: 20px;
+    padding: 15px;
 }
 
 .container {
+    background-color: grey;
+    min-height: 800px;
     display : grid;
     grid-template-columns: 10% 80% 10%;
 }
