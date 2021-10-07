@@ -5,16 +5,31 @@
 .banner{
     border-top: solid black;
     display: flex;
+    height: 200px;
 }
 
-.front-thumb-post{
+.front-thumb-post {
     margin-top: 20px;
-    display:flex;
+    display: flex;
     gap: 10px;
     justify-content: center;
-
 }
 .front-post{
     border: 1px solid black;
     text-align: center;
+    border-radius: 20px;
+    width: 400px;
 }
+.front-post-picture{
+    height: 200px;
+}
+.front-picture-style{
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.front-post-title{
+    text-decoration-line: none;
+    color: black;
+}
+
