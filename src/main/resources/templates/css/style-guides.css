@@ -14,7 +14,11 @@ header {
     width: auto;
 }
 
+.content-post-image {
+    border-radius: 20px;
+    object-fit: contain;
+}
+
 #right-aligned-image {
     float: right;
-    object-fit: contain;
 }
