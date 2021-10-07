@@ -1,0 +1,20 @@
+
+header {
+    background-color: #006294;
+}
+
+.title{
+    border-radius: 20%;
+    border-left: solid white;
+    border-right: solid white;
+}
+
+.content-post-content {
+    border: solid #4c4c4c 1px;
+    width: auto;
+}
+
+#right-aligned-image {
+    float: right;
+    object-fit: contain;
+}
