@@ -17,12 +17,23 @@ img {
     max-height: 100%;
 }
 
-.title{
+.title-button{
+    border-radius:20%;
     border-left: solid darkgreen;
     border-right: solid darkgreen;
     text-decoration:none;
     color: white;
     padding: 15px;
+
+}
+
+.title-button:hover{
+    background-color: darkgreen;
+}
+
+.title-button.active{
+    background-color: pink;
+
 }
 
 .container {
