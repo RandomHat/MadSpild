@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../static/css/main.css">
     <link rel="stylesheet" href="../static/css/style-guide.css">
-    <title>Title</title>
+    <title>Guideoversigt</title>
 </head>
 <body>
 <header>
     <div class="titlebar">
-        <a id="homepage" class="title" href="homepage.html"> home</a>
-        <a id="guide" class="title" href="guidespage.html"> guides</a>
-        <a id="facts" class="title" href="factspage.html">facts</a>
+        <a id="homepage" class="title-button" href="homepage.html"> home</a>
+        <a id="guide" class="title-button" href="guidespage.html"> guides</a>
+        <a id="facts" class="title-button" href="factspage.html">facts</a>
     </div>
 </header>
 <div class="container">
@@ -29,7 +29,7 @@
                 <div><i class="arrow right"></i><a href="guide">Here</a></div>
             </div>
         </div>
-        <div class="article">
+        <div class="article contentmargin">
             <h1>Test Artikel Heading<hr></h1>
 
             <br>
@@ -64,12 +64,13 @@
             </p>
         </div>
 
-        <div class="comment-section">
+        <div class="comment-section contentmargin">
+            <div class="horizontal-rule"></div>
             <div class="comment-form">
                 <form>
-                    <label for="usertext">Enter Comment: </label>
-                    <br>
-                    <textarea id="usertext" name="usertext" placeholder="Type to get started.." cols="50" rows="10"> </textarea>
+                    <label for="usertext"><strong>Comment Section</strong></label>
+                    <br><br>
+                    <textarea id = "usertext" name = "usertext" cols = "50" rows = "10" placeholder = "Type to get started.." ></textarea>
                     <input type="submit" value="Comment">
                 </form>
             </div>
@@ -93,7 +94,6 @@
 
             </ul>
         </div>
-
     </div>
 
     <div id="right" class="sidebar">

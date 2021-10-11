@@ -7,6 +7,11 @@
     font-family: "Tahoma", sans-serif;
 }
 
+.contentmargin {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
 .article_element {
     display: flex;
     flex-direction: row;
@@ -14,7 +19,8 @@
 
 .pathcontainer {
     display: flex;
-
+    margin-left: 1%;
+    margin-top: 1%;
 }
 
 .path {
@@ -38,11 +44,24 @@
     -webkit-transform: rotate(-45deg);
 }
 
-.TextWrap {
-    float:right;
-    margin: 10px;
+.comment-section {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    padding: 1px 2%;
 }
-.TextWrapLeft{
-    float: left;
-    margin: 10px;
+
+.horizontal-rule {
+    background-color: black;
+    height: 2px;
+    width: 95%;
+    align-self: center;
+    margin-bottom: 1%;
+}
+.comment-section label{
+    font-size: 175%;
+    text-emphasis: black;
+}
+
+.comment-section input[type=submit]{
 }

@@ -1,4 +1,5 @@
 body{
+    font-family: "Trebuchet MS", sans-serif;
     background: darkgreen;
     margin: 0;
     padding: 0;
@@ -17,12 +18,23 @@ img {
     max-height: 100%;
 }
 
-.title{
+.title-button{
+    border-radius:20%;
     border-left: solid darkgreen;
     border-right: solid darkgreen;
     text-decoration:none;
     color: white;
     padding: 15px;
+
+}
+
+.title-button:hover{
+    background-color: darkgreen;
+}
+
+.title-button.active{
+    background-color: pink;
+
 }
 
 .container {
@@ -33,22 +45,12 @@ img {
 }
 
 .sidebar{
-    background-color: hotpink;
+    background-color: #dec000;
 }
 
 .main-content{
-    padding: 25px;
 }
 
-.content-post {
-    display: flex;
-    box-sizing: border-box;
-    width: 100%;
-    border: solid #4c4c4c 1px;
-    border-radius: 25px;
-    padding: 10px;
-    height: 200px;
-}
 
 footer {
     background-color: lightgrey;

@@ -1,0 +1,13 @@
+.ten-facts{
+    text-align: center;
+
+}
+.fact-list li{
+    font-size: 40px;
+    display: flex inline;
+    list-style-position: inside;
+}
+.fact-list h3{
+    font-size: 20px;
+    text-align: center;
+}
