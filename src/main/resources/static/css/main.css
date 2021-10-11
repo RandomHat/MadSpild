@@ -18,6 +18,11 @@ img {
     max-height: 100%;
 }
 
+a {
+    text-decoration: underline;
+    color: inherit;
+}
+
 .title-button{
     border-radius:20%;
     border-left: solid darkgreen;
