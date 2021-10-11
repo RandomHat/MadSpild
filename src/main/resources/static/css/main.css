@@ -30,7 +30,6 @@ a {
     text-decoration:none;
     color: white;
     padding: 15px;
-
 }
 
 .title-button:hover{
@@ -43,19 +42,90 @@ a {
 }
 
 .container {
+    margin: 5px;
     background-color: grey;
     min-height: 800px;
     display : grid;
     grid-template-columns: 10% 80% 10%;
 }
+.pathcontainer {
+    display: flex;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.path {
+    display: flex;
+    background-color: ghostwhite;
+    padding: 8px;
+    margin: 0 5px 15px 0;
+    border-radius: 25px;
+}
+
+.arrow {
+    display: inline-block;
+    border: solid black;
+    padding: 3px;
+    border-width: 0 2px 2px 0;
+    margin-left: 3px;
+    margin-right: 5px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
 
 .sidebar{
+    position: relative;
+    top:0;
+    left:0;
     background-color: #dec000;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
 }
 
-.main-content{
+@keyframes top-bannerFadeInOut{
+    0% {
+        opacity:1;
+    }
+    45% {
+        opacity:1;
+    }
+    55% {
+        opacity:0;
+    }
+    100% {
+        opacity:0;
+    }
 }
-
+.top-banner{
+    position:absolute;
+    left:0;
+    z-index: 3;
+}
+.bottom-banner{
+    position:relative;
+    left: 0;
+    z-index: 1;
+}
+.top-banner{
+    animation-name: top-bannerFadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-direction: alternate;
+}
+.round-left-corners{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.round-right-corners{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
 
 footer {
     background-color: lightgrey;

@@ -1,13 +1,42 @@
+.main-content{
+
+    display: flex;
+    margin-bottom: 10px;
+}
+
+
+.guide-overview-menu{
+
+    width: 25%;
+    height: fit-content;
+}
+
+.pathcontainer{
+    margin-left:0;
+}
+.outer-container{
+    width: 100%;
+    margin-right: 15px;
+}
 .ten-facts{
+    background-color: ghostwhite;
+
+    padding: 25px;
     text-align: center;
+    border:1px solid black;
+    width: auto;
+    border-radius: 25px;
+    box-shadow: 5px 5px #4c4c4c;
+}
+.fact-list{
 
 }
 .fact-list li{
     font-size: 40px;
     display: flex inline;
     list-style-position: inside;
+    padding-inline-start: 0px;
 }
 .fact-list h3{
     font-size: 20px;
-    text-align: center;
 }
