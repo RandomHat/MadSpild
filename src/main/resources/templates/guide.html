@@ -66,33 +66,70 @@
 
         <div class="comment-section contentmargin">
             <div class="horizontal-rule"></div>
-            <div class="comment-form">
-                <form>
-                    <label for="usertext"><strong>Comment Section</strong></label>
-                    <br><br>
-                    <textarea id = "usertext" name = "usertext" cols = "50" rows = "10" placeholder = "Type to get started.." ></textarea>
-                    <input type="submit" value="Comment">
-                </form>
-            </div>
+            <h1>Comments</h1>
             <ul class="comments">
                 <li class="comment">
-                    <div>Username</div>
-                    <div> Bla bla bla bla? blabla. blablabala...</div>
+                    <div class="user">Username2 Wrote:</div>
+                    <div class="timestamp">11. October 2021, 11:30</div>
+                    <div class="message"> Bla bla bla bla? blabla. blablabala...</div>
+                    <div class="interact"><a href="#usertext">Reply</a></div>
                 </li>
                 <li class="comment">
-                    <div>Username</div>
-                    <div> Bla bla bla bla? blabla. blablabala...</div>
+                    <div class="user">Username3 Wrote:</div>
+                    <div class="timestamp">10. October 2021, 21:16</div>
+                    <div class="message"> Bla bla bla bla? blabla. blablabala...</div>
+                    <div class="interact"><a href="#usertext">Reply</a></div>
                 </li>
                 <li class="comment">
-                    <div>Username</div>
-                    <div> Bla bla bla bla? blabla. blablabala...</div>
+                    <div class="user">Username2 Wrote:</div>
+                    <div class="timestamp">10. October 2021, 12:01</div>
+                    <div class="message"> Bla bla bla bla? blabla. blablabala...</div>
+                    <div class="interact"><a href="#usertext">Reply</a></div>
+                    <ul class="comments comment-thread">
+                        <li class="comment">
+                            <div class="user">Username1 Wrote:</div>
+                            <div class="timestamp">10. October 2021, 12:06</div>
+                            <div class="message"> Bla bla bla bla? blabla. blablabala...</div>
+                            <div class="interact"><a href="#usertext">Reply</a></div>
+                        </li>
+                        <li class="comment">
+                            <div class="user">Username2 Wrote:</div>
+                            <div class="timestamp">10. October 2021, 13:23</div>
+                            <div class="message"> Bla bla bla bla? blabla. blablabala...</div>
+                            <div class="interact"><a href="#usertext">Reply</a></div>
+                        </li>
+                        <li class="comment">
+                            <div class="user">Username1 Wrote:</div>
+                            <div class="timestamp">10. October 2021, 13:37</div>
+                            <div class="message"> Bla bla bla bla? blabla. blablabala...</div>
+                            <div class="interact"><a href="#usertext">Reply</a></div>
+                        </li>
+                    </ul>
                 </li>
                 <li class="comment">
-                    <div>Username</div>
-                    <div> Bla bla bla bla? blabla. blablabala...</div>
+                    <div class="user">Username1 Wrote:</div>
+                    <div class="timestamp">10. Oktober 2021 kl. 8:39</div>
+                    <div class="message"> Bla bla bla bla? blabla. blablabala...</div>
+                    <div class="interact"><a href="#usertext">Reply</a></div>
                 </li>
 
             </ul>
+
+            <div class="comment-form">
+                <form>
+                    <label id="textbox" for="usertext"><strong>Leave a comment </strong></label>
+                    <br><br>
+                    <textarea id = "usertext" name = "usertext" rows = "10" placeholder="Type to get started.."></textarea>
+                    <br><br>
+                    <label for="username"><strong>Navn:</strong></label><br>
+                    <input type = "text" name="username" id="username" placeholder="What is your name?">
+                    <br><br>
+                    <label for="email"><Strong>Email:</Strong></label><br>
+                    <input type="email" name="email" id="email" placeholder="example@test.troll">
+                    <br><br>
+                    <input type="submit" value="Comment">
+                </form>
+            </div>
         </div>
     </div>
 

@@ -72,10 +72,46 @@
     margin-bottom: 1%;
 }
 .comment-section label{
-    font-size: 175%;
+    font-size: 100%;
     text-emphasis: black;
-
 }
 
-.comment-section input[type=submit]{
+#textbox{
+    font-size: 175%;
+}
+
+.comments {
+    list-style-type: none;
+}
+
+.comment {
+    padding: 1%;
+}
+
+.comment-form {
+    width: 90%;
+    padding-bottom: 1%;
+    align-self: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+.timestamp{
+    font-size: small;
+    color: #4c4c4c;
+    padding-bottom: 10px;
+}
+
+input[type=submit]{
+    align-self: center;
+    background-color: #006294;
+    color: white;
+    border-radius: 25px;
+    font-size: 115%;
+    padding: 6px;
+    margin: 1%;
 }
