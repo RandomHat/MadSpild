@@ -10,17 +10,19 @@
     width: 25%;
     height: fit-content;
 }
-
 .pathcontainer{
     margin-left:0;
 }
+
 .outer-container{
     width: 100%;
     margin-right: 15px;
+
 }
+
 .ten-facts{
     background-color: ghostwhite;
-
+    margin-left: 15px;
     padding: 25px;
     text-align: center;
     border:1px solid black;

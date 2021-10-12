@@ -1,15 +1,15 @@
 body{
     font-family: "Trebuchet MS", sans-serif;
-    background: darkgreen;
+    background: #006294;
     margin: 0;
     padding: 0;
 }
 
 header {
-    border-radius: 20px;
     padding-top: 22px;
     text-align: center;
-    background-color: green;
+    border-top:1px solid black;
+    background-color: #006294;
     height: 40px;
 }
 
@@ -25,15 +25,15 @@ a {
 
 .title-button{
     border-radius:20%;
-    border-left: solid darkgreen;
-    border-right: solid darkgreen;
+    border-left: solid ghostwhite;
+    border-right: solid ghostwhite;
     text-decoration:none;
     color: white;
     padding: 15px;
 }
 
 .title-button:hover{
-    background-color: darkgreen;
+    background-color: darkblue;
 }
 
 .title-button.active{
@@ -42,7 +42,7 @@ a {
 }
 
 .container {
-    margin: 5px;
+    width: 100%;
     background-color: grey;
     min-height: 800px;
     display : grid;
@@ -130,6 +130,7 @@ a {
 footer {
     background-color: lightgrey;
     text-align: center;
+    margin-bottom:0;
 }
 .footer-info{
     display:inline-block;
