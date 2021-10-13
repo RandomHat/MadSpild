@@ -25,20 +25,15 @@ a {
 
 .title-button{
     border-radius:20%;
+    text-decoration: none;
     border-left: solid ghostwhite;
     border-right: solid ghostwhite;
-    text-decoration:none;
-    color: white;
+    color: black;
     padding: 15px;
 }
 
 .title-button:hover{
-    background-color: darkblue;
-}
-
-.title-button.active{
-    background-color: pink;
-
+    background-color: lightseagreen;
 }
 
 .container {
@@ -86,7 +81,16 @@ a {
     -o-transition: opacity 1s ease-in-out;
     transition: opacity 1s ease-in-out;
 }
-
+.top-banner{
+    position:absolute;
+    left:0;
+    z-index: 3;
+    animation-name: top-bannerFadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-direction: alternate;
+}
 @keyframes top-bannerFadeInOut{
     0% {
         opacity:1;
@@ -101,23 +105,13 @@ a {
         opacity:0;
     }
 }
-.top-banner{
-    position:absolute;
-    left:0;
-    z-index: 3;
-}
+
 .bottom-banner{
     position:relative;
     left: 0;
     z-index: 1;
 }
-.top-banner{
-    animation-name: top-bannerFadeInOut;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-duration: 6s;
-    animation-direction: alternate;
-}
+
 .round-left-corners{
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
