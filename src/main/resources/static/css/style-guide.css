@@ -89,3 +89,7 @@ input[type=submit]{
     padding: 6px;
     margin: 1%;
 }
+
+#guide{
+    background-color: orange;
+}
